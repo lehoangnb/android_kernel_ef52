@@ -1,0 +1,74 @@
+  GEN     /home/cry/android/A870k/kernel/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+arch/arm/Kconfig:1750:warning: 'HZ': number is invalid
+arch/arm/Kconfig:1751:warning: 'HZ': number is invalid
+arch/arm/Kconfig:1752:warning: 'HZ': number is invalid
+  Using /home/cry/android/A870k/kernel as source for kernel
+  GEN     /home/cry/android/A870k/kernel/obj/KERNEL_OBJ/Makefile
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: « include/generated/mach-types.h » là hiện thời.
+  CALL    /home/cry/android/A870k/kernel/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CC      arch/arm/mach-msm/acpuclock-8064.o
+  LD      arch/arm/mach-msm/built-in.o
+Building with KERNELRELEASE = 3.4.0-CM11_PAC@LeHoang
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  LD      .tmp_vmlinux1
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 23 of arch/arm/common/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 136 of arch/arm/mach-msm/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 955 of kernel/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 1117 of fs/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 56 of crypto/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 398 of block/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 298 of lib/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 73 of drivers/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 855 of net/built-in.o is not in EXIDX output section
+  KSYM    .tmp_kallsyms1.S
+  AS      .tmp_kallsyms1.o
+  LD      .tmp_vmlinux2
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 23 of arch/arm/common/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 136 of arch/arm/mach-msm/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 955 of kernel/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 1117 of fs/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 56 of crypto/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 398 of block/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 298 of lib/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 73 of drivers/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 855 of net/built-in.o is not in EXIDX output section
+  KSYM    .tmp_kallsyms2.S
+  AS      .tmp_kallsyms2.o
+  LD      vmlinux
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 23 of arch/arm/common/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 136 of arch/arm/mach-msm/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 955 of kernel/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 1117 of fs/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 56 of crypto/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 398 of block/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 298 of lib/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 73 of drivers/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 11 of sound/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 9 of arch/arm/oprofile/built-in.o is not in EXIDX output section
+/home/cry/gcc_linaro/bin/arm-eabi-ld: cảnh báo : unwinding may not work because EXIDX input section 855 of net/built-in.o is not in EXIDX output section
+  SYSMAP  System.map
+  SYSMAP  .tmp_System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  GZIP    arch/arm/boot/compressed/piggy.gzip
+  AS      arch/arm/boot/compressed/piggy.gzip.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready
+Building with KERNELRELEASE = 3.4.0-CM11_PAC@LeHoang
+  Building modules, stage 2.
+  MODPOST 19 modules
