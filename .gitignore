@@ -86,3 +86,4 @@ GTAGS
 \#*#
 obj/*
 /zImage
+/kernel_log.txt
